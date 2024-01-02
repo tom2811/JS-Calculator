@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="calculator">
+            <input class="display" readonly>
+            <div class="keys">
+                <button onclick="showDisplay('7')">7</button>
+                <button onclick="showDisplay('8')">8</button>
+                <button onclick="showDisplay('9')">9</button>
+                <button onclick="showDisplay('/')" class="operator-btn">/</button>
+                <button onclick="showDisplay('4')">4</button>
+                <button onclick="showDisplay('5')">5</button>
+                <button onclick="showDisplay('6')">6</button>
+                <button onclick="showDisplay('*')" class="operator-btn">*</button>
+                <button onclick="showDisplay('1')">1</button>
+                <button onclick="showDisplay('2')">2</button>
+                <button onclick="showDisplay('3')">3</button>
+                <button onclick="showDisplay('-')" class="operator-btn">-</button>
+                <button onclick="showDisplay('0')" class="number-0">0</button>
+                <button onclick="showDisplay('.')">.</button>
+                <button onclick="showDisplay('+')" class="operator-btn">+</button>
+                <button onclick="clearDisplay" class="left">C</button>
+                <button onclick="calculate()" class="left-operator operator-btn">=</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
