@@ -74,16 +74,16 @@ button:nth-child(8) {
     grid-column-end: 3;
 }
 
-.left {
+.right {
     grid-column-start: 3;
 }
 
-.left-operator {
+.right-operator {
     grid-column-start: 4;
 }
 
 .operator-btn {
-    background-color: hsl(35, 80%, 55%);
+    background-color: hsl(35, 100%, 55%);
 }
 
 .operator-btn:hover {
@@ -92,4 +92,14 @@ button:nth-child(8) {
 
 .operator-btn:active {
     background-color: hsl(35, 100%, 75%);
+}
+
+p {
+    position: absolute;
+    top: 87%;
+    left: 35.5%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 20%);
+    text-shadow: 2px 2px 2px hsl(0, 0%, 10%);
 }
